@@ -48,7 +48,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		"https://raw.githubusercontent.com/fayruru/gas/main/Particles.webm";
+		"https://raw.githubusercontent.com/fayruru/gas/main/video_2026-11-02_15-34-36.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -110,7 +110,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://github.com/fayruru/gas/blob/main/citrus_orchard_road_puresky_2k.hdr",
+	"https://raw.githubusercontent.com/fayruru/gas/refs/heads/main/citrus_orchard_road_puresky_2k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
